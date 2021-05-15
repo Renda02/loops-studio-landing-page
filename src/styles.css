@@ -1,0 +1,76 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.125rem;
+    line-height: 1.6;
+    text-decoration: none;
+
+}
+
+/*Typography*/
+
+h1{
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 0;
+    color: #ffff;
+}
+
+h2,
+h3,
+h4{
+    font-weight: 300;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+h2{
+    color: #ffff;
+  justify-content: center;
+  padding: 4em 0;
+}
+
+nav ul{
+    list-style: none;
+font-size: 1rem;
+}
+
+
+
+/*Layout*/
+.container{
+    width:620px;
+    margin: 0 auto;
+  }
+
+.top{
+    background-image: url(../images/mobile/image-hero.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header nav{
+    padding: 1em ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+nav a{
+    text-decoration: none;
+}
